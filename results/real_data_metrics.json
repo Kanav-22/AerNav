@@ -1,15 +1,4 @@
 {
-  "dataset": "DJI M300 \u2014 Zenodo 7643456",
-  "samples": 54726,
-  "flights": 7,
-  "flight_1_validation": {
-    "EKF_RMSE": 4.638,
-    "EKF_MAE": 4.066,
-    "EKF_MaxErr": 8.537,
-    "IMU_RMSE": 46.394,
-    "IMU_MAE": 46.019,
-    "IMU_MaxErr": 52.721,
-    "EKF_vs_IMU": 10.0
-  },
-  "note": "Validated on real IMU data. EKF 10x better than IMU after GPS loss."
+  "EKF_RMSE": 6.2386,
+  "IMU_RMSE": 46.3936
 }
