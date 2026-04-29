@@ -1,0 +1,27 @@
+{
+  "GPS": {
+    "RMSE": 0.2399,
+    "MAE": 0.2377,
+    "MaxErr": 0.2954,
+    "goal_reached": true,
+    "steps": 514
+  },
+  "IMU": {
+    "RMSE": 109.0971,
+    "MAE": 105.959,
+    "MaxErr": 137.3353,
+    "goal_reached": false,
+    "steps": 2000
+  },
+  "EKF": {
+    "RMSE": 0.187,
+    "MAE": 0.1757,
+    "MaxErr": 0.3239,
+    "goal_reached": true,
+    "steps": 516
+  },
+  "improvements": {
+    "EKF_vs_IMU_RMSE": 583.5,
+    "EKF_vs_IMU_MAE": 603.1
+  }
+}

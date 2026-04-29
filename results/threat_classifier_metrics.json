@@ -1,0 +1,26 @@
+{
+  "model": "MLP (64\u219232\u219216\u21921)",
+  "dataset": "DJI M300 \u2014 Zenodo 7643456",
+  "samples": 5440,
+  "train_split": 0.8,
+  "epochs": 50,
+  "accuracy": 0.978,
+  "precision": {
+    "Normal": 0.97,
+    "Threat": 0.99
+  },
+  "recall": {
+    "Normal": 0.99,
+    "Threat": 0.97
+  },
+  "f1": {
+    "Normal": 0.98,
+    "Threat": 0.98
+  },
+  "confusion_matrix": {
+    "TN": 489,
+    "FP": 7,
+    "FN": 17,
+    "TP": 575
+  }
+}
