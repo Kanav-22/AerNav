@@ -1,0 +1,26 @@
+{
+  "GPS": {
+    "RMSE": 0.0183,
+    "MAE": 0.0148,
+    "MaxErr": 0.0467,
+    "Drift_mm_step": 0.247
+  },
+  "EKF": {
+    "RMSE": 0.062,
+    "MAE": 0.0498,
+    "MaxErr": 0.1566,
+    "Drift_mm_step": 0.931
+  },
+  "IMU": {
+    "RMSE": 0.856,
+    "MAE": 0.6406,
+    "MaxErr": 1.873,
+    "Drift_mm_step": 20.09
+  },
+  "improvements": {
+    "EKF_vs_IMU_RMSE": 13.8,
+    "EKF_vs_IMU_MAE": 12.9,
+    "EKF_vs_IMU_MaxErr": 12.0,
+    "EKF_vs_GPS_RMSE": 3.4
+  }
+}
